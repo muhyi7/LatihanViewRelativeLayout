@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewSelamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ahmad Muhyiddin"
+        android:textColor="#91B83E"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewSelamat"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/android_logo"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/textViewAndroidDev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Developer"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#91B83E"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anda sudah menjadi seorang"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@id/textViewAndroidDev"/>
+        
+
+
+</RelativeLayout>
